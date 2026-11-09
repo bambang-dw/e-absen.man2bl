@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#047857;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#064e3b;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fbbf24;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#d97706;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Outer Shield / Hexagon -->
+  <polygon points="100,8 185,55 185,145 100,192 15,145 15,55" fill="url(#grad1)" stroke="url(#goldGrad)" stroke-width="6" stroke-linejoin="round"/>
+  
+  <!-- Inner Ring -->
+  <circle cx="100" cy="100" r="70" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.4" stroke-dasharray="4,4"/>
+  <circle cx="100" cy="100" r="64" fill="#ffffff" opacity="0.1"/>
+  
+  <!-- Star on Top -->
+  <polygon points="100,28 103,37 113,37 105,43 108,52 100,46 92,52 95,43 87,37 97,37" fill="#fbbf24"/>
+  
+  <!-- Open Book (Al-Qur'an / Knowledge) -->
+  <path d="M 65 115 Q 100 102 100 120 Q 100 102 135 115 L 135 90 Q 100 78 100 95 Q 100 78 65 90 Z" fill="#ffffff" stroke="url(#goldGrad)" stroke-width="2.5"/>
+  <line x1="100" y1="95" x2="100" y2="120" stroke="#047857" stroke-width="2.5"/>
+  
+  <!-- Torch / Flame (Pendidikan) -->
+  <path d="M 100 60 Q 94 72 100 82 Q 106 72 100 60 Z" fill="url(#goldGrad)"/>
+  <path d="M 98 68 Q 95 74 98 80 Q 102 75 98 68 Z" fill="#ef4444"/>
+
+  <!-- Ribbon Text -->
+  <rect x="35" y="142" width="130" height="24" rx="12" fill="#fbbf24" stroke="#d97706" stroke-width="1.5"/>
+  <text x="100" y="158" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-size="11" font-weight="900" fill="#064e3b" text-anchor="middle" letter-spacing="1">MAN 2 BALAM</text>
+  
+  <!-- Top Arch Text -->
+  <text x="100" y="24" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-size="8" font-weight="800" fill="#ffffff" text-anchor="middle" letter-spacing="0.5">KEMENTERIAN AGAMA</text>
+</svg>

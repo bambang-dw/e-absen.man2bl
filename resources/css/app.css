@@ -1,0 +1,12 @@
+@layer theme, base, bootstrap, components, utilities;
+
+@import 'tailwindcss';
+@import 'bootstrap/dist/css/bootstrap.min.css' layer(bootstrap);
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+
+@theme {
+    --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+        'Segoe UI Symbol', 'Noto Color Emoji';
+}
